@@ -1,0 +1,12 @@
+--- filetype.vim.orig	Sun Jul 28 04:31:02 2002
++++ filetype.vim	Fri Jul 26 20:22:39 2002
+@@ -315,6 +315,9 @@
+ " Dylan
+ au BufNewFile,BufRead *.dylan			setf dylan
+ 
++" MUF
++au BufNewFile,BufRead *.muf			setf muf
++
+ " Microsoft Module Definition
+ au BufNewFile,BufRead *.def			setf def
+ 
